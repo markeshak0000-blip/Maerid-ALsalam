@@ -1,0 +1,17 @@
+{
+  "name": "Maerid-ALsalam-home-store",
+  "version": "1.0.0",
+  "description": "السلام للادوات المنزلية - نظام إدارة داخلي - Infinity MEN2",
+  "scripts": {
+    "build": "echo build ok",
+    "cap:add": "npx cap add android",
+    "cap:copy": "npx cap copy android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/cli": "^6.1.2"
+  },
+  "author": "Infinity MEN2 - ENG Mark Eshak - 01277482080",
+  "license": "private"
+}
