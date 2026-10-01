@@ -1,0 +1,20 @@
+{
+  "name": "maerid-al-salam-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "معرض السلام للأدوات المنزلية - Android app wrapper",
+  "scripts": {
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android",
+    "assets:android": "npx @capacitor/assets generate --android --iconBackgroundColor '#080A0E' --iconBackgroundColorDark '#080A0E' --splashBackgroundColor '#080A0E' --splashBackgroundColorDark '#080A0E'"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.2",
+    "@capacitor/core": "8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "3.0.5",
+    "@capacitor/cli": "8.5.2"
+  }
+}
