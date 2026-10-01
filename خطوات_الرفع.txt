@@ -1,0 +1,15 @@
+بعد ما تعمل Create repository:
+
+1- هتدخل على صفحة الريبو الفاضية
+2- هتلاقي زرار Add file > Upload files
+3- فك ضغط ملف andalus-final-android.zip اللي حملته
+4- اسحب كل الملفات والمجلدات (www, .github, package.json, capacitor.config.json, README.md) وارميهم في صفحة الرفع
+5- دوس Commit changes
+6- روح تبويب Actions واستنى 5 دقايق وحمل الـ APK من Artifacts
+
+لو .github مش راضي يترفع من المتصفح، استخدم الطريقة دي:
+git clone https://github.com/markeshak00000/andalus-home-store.git
+انسخ الملفات جواه
+git add .
+git commit -m "Final Pro v1.0.0"
+git push
