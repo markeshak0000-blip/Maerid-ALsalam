@@ -1,0 +1,21 @@
+{
+  "name": "معرض السلام للأدوات المنزلية",
+  "short_name": "معرض السلام",
+  "description": "نظام كامل لإدارة معرض السلام للأدوات المنزلية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080A0E",
+  "theme_color": "#080A0E",
+  "icons": [
+    {
+      "src": "./app-icon.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
